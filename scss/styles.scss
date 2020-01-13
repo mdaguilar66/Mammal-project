@@ -1,13 +1,26 @@
 .banner {
-  background-color: black;
+  background-image: url('https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
   color: white;
   height: 200px;
+  min-height: 100%;
+  opacity: 0.8;
 
   h2 {
     font-size: 13px;
     width: 170px;
     padding-top: 40px;
   }
+}
+
+.page {
+  background-image: url('https://media.gettyimages.com/vectors/abstract-grey-and-white-waves-vector-background-vector-id866867270?b=1&k=6&m=866867270&s=612x612&w=0&h=oQcAAOfoNp_TqlvzWE3bMXXxErctBjMVe576sZn10rs=');
+}
+
+.banner, .page {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
 }
 
 .container {
@@ -42,3 +55,4 @@
     font-size: 7px;
   }
 }
+
