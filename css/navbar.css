@@ -1,0 +1,8 @@
+.navbar-mammal {
+  justify-content: space-between; }
+
+.navbar-mammal .navbar-collapse {
+  flex-grow: 0; }
+
+.navbar-toggler {
+  margin-left: 150px; }

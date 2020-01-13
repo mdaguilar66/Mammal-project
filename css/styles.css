@@ -1,3 +1,29 @@
-body {
-  color: red;
-  background: yellow; }
+.banner {
+  background-color: black;
+  color: white;
+  height: 200px; }
+  .banner h2 {
+    font-size: 13px;
+    width: 170px;
+    padding-top: 40px; }
+
+.container {
+  width: 320px;
+  margin: 0 auto; }
+  .container .image1 {
+    width: 250px;
+    margin-top: -60px; }
+
+.info1 {
+  display: flex;
+  margin-top: 30px; }
+  .info1 .image2 {
+    flex: 0 0 120px;
+    height: 120px; }
+  .info1 .info1-content {
+    flex: 0 0 200px;
+    padding-left: 15px; }
+  .info1 h3 {
+    font-size: 11px; }
+  .info1 p {
+    font-size: 7px; }
