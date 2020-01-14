@@ -8,12 +8,17 @@
   h2 {
     font-size: 13px;
     width: 170px;
-    padding-top: 40px;
+    padding-top: 20px;
+  }
+  h3 {
+    font-size: 9px;
+    padding-bottom: 5px;
+    margin-left: 10px;
   }
 }
 
 .page {
-  background-image: url('https://media.gettyimages.com/vectors/abstract-grey-and-white-waves-vector-background-vector-id866867270?b=1&k=6&m=866867270&s=612x612&w=0&h=oQcAAOfoNp_TqlvzWE3bMXXxErctBjMVe576sZn10rs=');
+  background-image: url('https://www.fg-a.com/wallpapers/white-marble-1-2018.jpg');
 }
 
 .banner, .page {
@@ -26,33 +31,102 @@
 .container {
   width: 320px;
   margin: 0 auto;
-
+  padding: 25px;
+  // background: pink;
   .image1 {
     width: 250px;
     margin-top: -60px;
+  }
+  .image4, .image6 {
+    width: 250px;
+  }
+  .image7 {
+    width: 150px;
+    margin-top: 30px;
   }
 }
 
 .info1 {
   display: flex;
   margin-top: 30px;
-
   .image2 {
     flex: 0 0 120px;
     height: 120px;
   }
-
   .info1-content {
     flex: 0 0 200px;
     padding-left: 15px;
+    padding-right: 30px;
   }
-
   h3 {
-    font-size: 11px;
+    font-size: 10px;
   }
-
   p {
-    font-size: 7px;
+    font-size: 6px;
+    color: grey;
   }
 }
+
+.info2 {
+  display: flex;
+  margin-top: 15px;
+  .image3 {
+    height: 200px;
+    margin-left: 40px;
+  }
+  ul {
+    padding: 0px;
+    list-style-type: none;
+  }
+  ul li {
+    color: grey;
+  }
+  ul li:hover {
+    color: black;
+  }
+  ul li ul li {
+    display: none;
+    font-size: 7px;
+  }
+  ul li:hover ul li {
+    display: block;
+  }
+}
+
+.info3 {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  .image5 {
+    flex: 0 0 120px;
+    height: 120px;
+  }
+  .info3-content {
+    flex: 0 0 200px;
+  }
+  h3 {
+    font-size: 10px;
+  }
+}
+
+img {
+  box-shadow: 3px 3px 6px #595659;
+}
+
+
+
+.icon-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 7px;
+  margin-left: 10px;
+  margin-right: -20px;
+  .grid-box img {
+    width: 30px;
+    box-shadow: none;
+  }
+
+}
+
+
 
