@@ -1,3 +1,6 @@
+body {
+  font-family: 'Poppins', sans-serif; }
+
 .banner {
   background-image: url("https://images.pexels.com/photos/998641/pexels-photo-998641.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
   color: white;
@@ -7,11 +10,11 @@
   .banner h2 {
     font-size: 13px;
     width: 170px;
-    padding-top: 20px; }
+    padding-top: 30px; }
   .banner h3 {
     font-size: 9px;
-    padding-bottom: 5px;
-    margin-left: 10px; }
+    margin-left: 10px;
+    padding-top: 10px; }
 
 .page {
   background-image: url("https://www.fg-a.com/wallpapers/white-marble-1-2018.jpg"); }
@@ -25,7 +28,7 @@
 .container {
   width: 320px;
   margin: 0 auto;
-  padding: 10px; }
+  padding-left: 20px; }
   .container .image1 {
     width: 250px;
     margin-top: -60px; }
@@ -97,7 +100,8 @@ img {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 7px;
   margin-left: 10px;
-  margin-right: -20px; }
+  margin-right: -20px;
+  padding-top: 15px; }
   .icon-grid .grid-box img {
     width: 30px;
     box-shadow: none; }
@@ -119,11 +123,13 @@ img {
     .banner h3 {
       font-size: 13px; }
   .container {
-    width: 600px; }
+    width: 600px;
+    padding-left: 50px; }
     .container .image1 {
       width: 475px; }
     .container .image4, .container .image6 {
-      width: 500px; }
+      width: 500px;
+      margin-top: 40px; }
     .container .image7 {
       width: 300px;
       margin-bottom: 50px;
