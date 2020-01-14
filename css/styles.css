@@ -25,15 +25,17 @@
 .container {
   width: 320px;
   margin: 0 auto;
-  padding: 25px; }
+  padding: 10px; }
   .container .image1 {
     width: 250px;
     margin-top: -60px; }
   .container .image4, .container .image6 {
-    width: 275px; }
+    width: 275px;
+    margin-top: 20px; }
   .container .image7 {
     width: 150px;
-    margin-top: 30px; }
+    margin-top: 30px;
+    margin-bottom: 20px; }
 
 .info1 {
   display: flex;
@@ -56,7 +58,8 @@
   margin-top: 15px; }
   .info2 .image3 {
     height: 200px;
-    margin-left: 40px; }
+    margin-left: 40px;
+    margin-bottom: 20px; }
   .info2 ul {
     padding: 0px;
     list-style-type: none; }
@@ -98,3 +101,68 @@ img {
   .icon-grid .grid-box img {
     width: 30px;
     box-shadow: none; }
+
+.footer .icon {
+  height: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px; }
+
+.footer h1 {
+  font-size: 20px; }
+
+@media (min-width: 600px) {
+  .banner {
+    height: 250px; }
+    .banner h2 {
+      font-size: 20px;
+      width: 270px; }
+    .banner h3 {
+      font-size: 13px; }
+  .container {
+    width: 600px; }
+    .container .image1 {
+      width: 475px; }
+    .container .image4, .container .image6 {
+      width: 500px; }
+    .container .image7 {
+      width: 300px;
+      margin-bottom: 50px;
+      margin-top: 50px; }
+  .info1 {
+    margin-top: 40px; }
+    .info1 .image2 {
+      flex: 0 0 200px;
+      height: 200px; }
+    .info1 .info1-content {
+      flex: 0 0 300px;
+      padding-left: 30px; }
+    .info1 h3 {
+      font-size: 15px; }
+    .info1 p {
+      font-size: 11px; }
+  .info2 {
+    margin-top: 30px; }
+    .info2 .image3 {
+      height: 300px;
+      margin-left: 110px;
+      margin-bottom: 40px; }
+    .info2 ul li {
+      font-size: 25px; }
+    .info2 ul li ul li {
+      font-size: 10px; }
+  .icon-grid {
+    padding: 10px; }
+    .icon-grid .grid-box img {
+      width: 45px; }
+  .info3 {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+    .info3 .image5 {
+      flex: 0 0 200px;
+      height: 220px; }
+    .info3 .info3-content {
+      flex: 0 0 320px; }
+    .info3 h3 {
+      font-size: 15px;
+      position: relative;
+      top: 180px; } }

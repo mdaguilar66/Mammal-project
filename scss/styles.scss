@@ -31,18 +31,19 @@
 .container {
   width: 320px;
   margin: 0 auto;
-  padding: 25px;
-  // background: pink;
+  padding: 10px;
   .image1 {
     width: 250px;
     margin-top: -60px;
   }
   .image4, .image6 {
     width: 275px;
+    margin-top: 20px;
   }
   .image7 {
     width: 150px;
     margin-top: 30px;
+    margin-bottom: 20px;
   }
 }
 
@@ -73,6 +74,7 @@
   .image3 {
     height: 200px;
     margin-left: 40px;
+    margin-bottom: 20px;
   }
   ul {
     padding: 0px;
@@ -127,7 +129,104 @@ img {
     width: 30px;
     box-shadow: none;
   }
+}
 
+.footer {
+  .icon {
+    height: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+  }
+  h1 {
+    font-size: 20px;
+  }
+}
+
+// media queries for ipad design
+
+@media (min-width: 600px) {
+  .banner {
+    height: 250px;
+    h2 {
+      font-size: 20px;
+      width: 270px;
+    }
+    h3 {
+      font-size: 13px;
+    }
+  }
+
+  .container {
+    width: 600px;
+    .image1 {
+      width: 475px;
+    }
+    .image4, .image6 {
+      width: 500px;
+    }
+    .image7 {
+      width: 300px;
+      margin-bottom: 50px;
+      margin-top: 50px;
+    }
+  }
+
+  .info1 {
+  margin-top: 40px;
+    .image2 {
+      flex: 0 0 200px;
+      height: 200px;
+    }
+    .info1-content {
+      flex: 0 0 300px;
+      padding-left: 30px;
+    }
+    h3 {
+      font-size: 15px;
+    }
+    p {
+      font-size: 11px;
+    }
+  }
+
+  .info2 {
+    margin-top: 30px;
+    .image3 {
+      height: 300px;
+      margin-left: 110px;
+      margin-bottom: 40px;
+    }
+    ul li {
+      font-size: 25px;
+    }
+    ul li ul li {
+      font-size: 10px;
+    }
+  }
+
+  .icon-grid {
+    padding: 10px;
+    .grid-box img {
+      width: 45px;
+    }
+  }
+
+  .info3 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    .image5 {
+      flex: 0 0 200px;
+      height: 220px;
+    }
+    .info3-content {
+      flex: 0 0 320px;
+    }
+    h3 {
+      font-size: 15px;
+      position: relative;
+      top: 180px;
+    }
+  }
 }
 
 
